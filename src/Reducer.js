@@ -41,7 +41,7 @@ export const reducer = (state = initialState, action) =>{
                 ...state,
                 user: action.user
             };
-            
+
         case "EMPTY_BASKET":
             return{
                 ...state,
@@ -51,7 +51,8 @@ export const reducer = (state = initialState, action) =>{
             return{
                 ...state,
                 basket: action.basket.lenght
-            };  
+            }; 
+             
             
     }return state;
 
