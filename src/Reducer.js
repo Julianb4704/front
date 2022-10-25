@@ -52,9 +52,10 @@ export const reducer = (state = initialState, action) =>{
                 ...state,
                 basket: action.basket.lenght
             }; 
-             
+
             
     }return state;
+    
 
 };
 
